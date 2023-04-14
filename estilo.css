@@ -1,0 +1,150 @@
+
+                                    /* LIMPAR FORMATACOES  */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+                                    /* FORMATACOES GERAIS */
+
+
+a{
+    text-decoration: none;
+}
+
+
+a:link, a:visited{
+    color: orange;
+}
+
+
+a:hover{
+    text-decoration: underline;
+    color: orange;
+}
+
+                                    
+                                    /* FORMATACOES CABECALHO */
+
+
+#logo a:link, #logo a:visited{
+    color: #fff;
+    padding: 15px;
+}
+
+
+#logo a:hover{
+    color: orange;
+    background-color: #fff;
+    text-decoration: none;
+}
+
+
+#logo{
+    background-color: orange;
+    text-align: center;
+}
+
+
+#titulo{
+    color: rgb(78, 78, 78);
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+#texto-titulo{
+    color: #fff;
+}
+
+
+#menu-central{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+    font-size: 20px;
+}
+
+
+                                    /* FORMATACOES POSTS */
+
+
+#post{
+    width: 660px;
+    padding: 20px 0 0 220px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    float: left;
+    margin-bottom: 90px;
+    margin-top: 10px;
+}
+
+
+#titulo-post{
+    padding-bottom: 30px;
+    color: orange;
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#sub-post{    
+    color: black;
+    font-size: 18px;
+}
+
+
+#conteudo-post{
+    font-size: 18px;
+    padding-bottom: 30px;
+    background: white;
+}
+
+
+                                    /* FORMATACOES MENU LATERAL */
+
+
+#menu-lateral{
+    float: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width:240px; 
+    margin-right: 120px;
+    margin-top: 20px;
+}
+
+
+#post-recent{
+    padding-bottom: 50px;
+}
+
+
+#titulos-lateral{
+    font-size: 22px;
+    background-color: rgb(230, 227, 227);
+    color: rgb(119, 118, 118);
+}
+
+
+#categorias{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.leia-mais{
+    font-size: 15px;
+    text-align: center;
+}
+
+
+                                    /* FIM DO CONTEUDO */
+
+
+#rodape{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #ccc;
+}
